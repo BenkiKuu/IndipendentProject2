@@ -1,17 +1,56 @@
-.jumbotron{
-  height: 500px;
-}
-body{
-  text-align: center;
-}
-.jumbotron{
+.jumbotron {
+  height: 600px;
+  margin: 0px;
   background-image: url("../img/backgrounds/landing.jpg");
   color: white;
+  text-align: center;
 }
-#orange{
+
+#party {
   background-color: #F15A29;
   padding: 25px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
+  height: 95px;
+  width: 100%;
+  text-align: center;
+}
+
+#happy {
+  padding: 25px;
+  margin: 0px;
+  height: 95px;
+  text-align: center;
+}
+
+#breakfast {
+  background-image: url("../img/foodtop/breakfast.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0px;
+  padding: 80px;
+  color: white;
+}
+
+#lunch {
+  background-image: url("../img/foodtop/lunch.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0px;
+  padding: 80px;
+  color: white;
+}
+
+#dinner {
+  background-image: url("../img/foodtop/dinner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0px;
+  padding: 80px;
+  color: white;
+}
+#row-1{
+  margin-bottom: 50px;
 }
