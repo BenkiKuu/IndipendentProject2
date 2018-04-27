@@ -1,3 +1,17 @@
 .jumbotron{
-  height: 600px;
+  height: 500px;
+}
+body{
+  text-align: center;
+}
+.jumbotron{
+  background-image: url("../img/backgrounds/landing.jpg");
+  color: white;
+}
+#orange{
+  background-color: #F15A29;
+  padding: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
