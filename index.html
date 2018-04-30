@@ -3,18 +3,27 @@
 
 <head>
   <title>ANITA'S KITCHEN</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118386694-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118386694-1');
+</script>
+
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <<script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </head>
 
 <body>
   <div class="jumbotron">
+    <img id="ham" src="img/hamburger.png">
     <div id="sidebar">
-      <div class="toggle-btn">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+    <img id="hamx" src="img/x.png">
       <ul>
         <li>Contacts</li>
         <li>Events</li>
@@ -25,20 +34,20 @@
     <h2>We Provide The Best Food</h2>
     <h2> At The <strong>Right Price</strong></h2>
   </div>
-  <div class="container">
+
     <div class="row" id="row-1">
       <div class="col-md-3">
         <h2 class="row" id="happy">Happy Hour</h2>
         <h2 class="row" id="party">Party Time</h2>
       </div>
       <div class="col-md-3" id="breakfast">
-        <p>Breakfast</p>
+        <p class="hov">Breakfast</p>
       </div>
       <div class="col-md-3" id="lunch">
-        <p>Lunch</p>
+        <p class="hov">Lunch</p>
       </div>
       <div class="col-md-3" id="dinner">
-        <p>Dinner </p>
+        <p class="hov">Dinner </p>
       </div>
     </div>
     <div class="row">
@@ -75,7 +84,7 @@
       </div>
     </div>
     <div class="row" id="midsection">
-      <div class="container">
+      <div class="container" id="cont-back">
         <ul class="nav nav-tabs nav-justified" id="navigator">
           <li role="presentation" class="active"><a href="#"><span class="first">Fast Food</span></a></li>
           <li role="presentation" class="inactive"><a href="#"><span class="rest">Drinks</span></a></li>
@@ -84,15 +93,15 @@
         </ul>
         <div class="col-md-3">
           <img class="move" src="img/fastfood/chickenBurger.jpg" alt="#" />
-          <p><strong>Chicken Burger</strong></p>
+          <p><strong class="in-text-color">Chicken Burger</strong></p>
         </div>
         <div class="col-md-3">
           <img src="img/fastfood/beefBurger.jpg" class="mid2" alt="#" />
-          <p class="mid2"><strong>Beef Burger</strong></p>
+          <p class="mid2"><strong class="in-text-color">Beef Burger</strong></p>
         </div>
         <div class="col-md-3">
           <img src="img/fastfood/chickenPizza.jpg" class="mid1" alt="#" />
-          <p class="mid1"><strong>Chicken Pizza</strong></p>
+          <p class="mid1"><strong class="in-text-color">Chicken Pizza</strong></p>
         </div>
       </div>
     </div>

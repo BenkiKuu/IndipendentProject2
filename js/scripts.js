@@ -1,5 +1,8 @@
 $(document).ready(function(){
-  $(".nav").click(function(){
-    $(".sidebar").slideToggle();
+  $("#ham").click(function(){
+    $("#sidebar").slideToggle();
+  });
+  $("#hamx").click(function(){
+    $("#sidebar").slideToggle();
   });
 });
