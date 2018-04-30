@@ -65,24 +65,105 @@
 box-shadow: 0 9px 18px 0 rgba(0,0,0,0.2);
 float: left;
 }
-.sidebar{
-  background-color: #F15A29;
-  width: 100px;
-  height: 300px;
+*{
+  margin: 0px;
+  padding: 0px;
   font-family: sans-serif;
-  display: none;
-  position: fixed;
-  z-index: 1;
 }
-.nav div{
-  height: 2px;
-  background-color: white;
-  margin: 5px 0;
+#sidebar {
+  position:fixed;
+  width: 200px;
+  height: 25%;
+  background: #F15A29;
+
 }
-.nav{
-  width: 30px;
-  display: block;
-  margin-left: 100px;
+#sidebar ul li{
+  color: rgba(230,230,230,0.9);
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+#sidebar .toggle-btn{
   position: absolute;
-  margin-top: 0px;
+  left: 20px;
+  top:20px;
+}
+#sidebar .toggle-btn span{
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: #F15A29;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#pulldown {
+ padding-top: 50px;
+}
+#sub {
+ background-image: url(../img/backgrounds/subscribe.jpg);
+ height: 301px;
+ text-align: center;
+ color: rgb(255, 255, 255);
+}
+
+
+
+#foot {
+ background-color: #F15A29;
+ text-align: center;
+ height: 310px;
+ color: rgb(255, 255, 255);
+}
+
+#footertop {
+ padding-top: 35px;
+ padding-bottom: 35px;
+
+}
+
+#men {
+ text-align: left;
+}
+#nav {
+ width: 1150px;
+}
+#fastfood {
+ background-image: url(../img/backgrounds/foodsBg.jpg);
+ height: 599px;
+ padding-top: 150px;
+ padding-bottom: 15px;
+}
+#mov{
+ padding-left: 120px
+}
+.act{
+ color: #F15A29;
+ font-weight: bold;
+}
+.inact{
+ color: rgb(0, 0, 0);
+ font-weight: bold;
+}
+.fast1{
+ padding-left: 100px;
+
+}
+.fast2{
+ padding-left: 50px;
+ padding-right: 50px;
+}
+.ham{
+font-size: 50px;
+padding-top: 10px;
+}
+#outer{
+ padding: 70px;
+}
+#cus {
+ text-align: center;
 }
